@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        * {
+            margin: 0;
+        }
+        header img {
+            width: 100%;
+        }
+        .img1 {
+            position: relative;
+          
+        }
+        .name {
+            border: solid 1px white;
+            position: absolute;
+            margin: auto;
+            text-align: center;
+            color: white;
+            top: 25%;
+            left: 36%;
+            padding: 10px 50px;
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .name h1 {
+            padding-bottom: 5px;
+        } 
+        .links{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+            position: relative;
+            top:-20px;
+        
+        }
+        .links nav{
+            
+            padding: 10px 0px;
+            background-color: #f1f1f1;
+           
+        }
+        .links a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 15px;
+            
+        }
+        a:hover {
+            background-color: #a09e9e;
+            border: solid 1px #a09e9e ;
+        }
+        
+        .imgs img{
+            width: 950px;
+            height: 700px;
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .cnt {
+            background-color: #f1f1f1;
+            width: 950px;
+            margin-left: 30px;
+
+        }
+        .cnt h1, p{
+            text-align: center;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .cnt h1{
+            padding-top: 25px;
+            font-size: 20px;
+        }
+
+        .cnt p {
+            text-align: justify;
+            font-size: 15px;
+            margin: 22px;
+        }
+    
+        input, label {
+            width: 900px;
+            height:38px;
+            margin-left:30px;
+        }
+        label{
+            font-size: 20px;
+        }
+        button {
+            margin-left:28px;
+            width: 910px;
+            text-align: center;
+            height: 50px;
+            font-size: 20px;
+            background-color: #616161;
+            border-color: solid 1px #616161;
+            color: white;
+        }
+        .cnt a {
+            color: black;
+        }
+       
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="img1">
+        <img src="https://www.w3schools.com/w3images/photographer.jpg" alt="">
+    </div>
+        <div class="name">
+       <h1>JANE DOE</h1>
+            <h2>PHOTOGRAPHER</h2>
+        </div>
+        <div class="links">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div> <!-- -->
+    </header>
+    <div class="imgs">
+        <img src="https://www.w3schools.com/w3images/ocean.jpg" alt="">         
+        <img src="https://www.w3schools.com/w3images/ocean2.jpg" alt="">
+        <img src="https://www.w3schools.com/w3images/falls2.jpg" alt="">
+        <img src="https://www.w3schools.com/w3images/mountainskies.jpg" alt="">
+        <img src="https://www.w3schools.com/w3images/mountains2.jpg" alt="">
+    </div>
+    <div class="cnt">
+        <h1>Contact</h1>
+        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+        <form action="">
+            <label for="">Name</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label for="">Email</label>
+            <br>
+            <input type="email">
+            <br><br>
+            <label for="">Message</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <button>Send</button>
+            <br><br>
+            <p>Powered by <a href="#">w3.css</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
